@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module-2-assignment</title>
+    <style>
+        /**********base styles**********/
+        * {
+            box-sizing: border-box;
+        }
+    
+        body {
+            background-color: white;
+        }
+    
+        h1 {
+            margin: 100px;
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 175%;
+        }
+    
+        section {
+            position: relative;
+            padding: 15px;
+            width: 100%;
+        }
+    
+        p {
+            position: relative;
+            clear: right;
+        }
+    
+        div {
+            position: relative;
+            background-color: gray;
+            border: 4px solid black;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+        }
+    
+        .chicken {
+            float: right;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: rgb(214, 124, 124);
+    
+        }
+    
+        .beef {
+            float: right;
+            color: white;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: maroon;
+    
+        }
+    
+        .sushi {
+            color: black;
+            float: right;
+            width: 100px;
+            padding: 5px;
+            margin: 0px;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 125%;
+            font-weight: bold;
+            background-color: rgb(223, 212, 121);
+    
+        }
+    
+        .content {
+            padding: 5px;
+            border: none;
+            background-color: gray;
+            font-family: Helvetica;
+            color: black;
+            margin: 0px;
+            height: 200px;
+            overflow: auto;
+        }
+    
+        .row {
+            width: 90%;
+        }
+    
+        /**********desktop version**********/
+        @media (min-width: 992px) {
+            .column-lg-4 {
+                float: left;
+                width: 33.33%;
+            }
+        }
+    
+        /**********tablet version**********/
+        @media (min-width: 768px) and (max-width: 991px) {
+            .colmn-md-6 {
+                float: left;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+            .colmn-md-12 {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    
+        /***********mobile version**********/
+        @media (max-width: 767px) {
+            .colmn-sm-12 {
+                float: left;
+                width: 100%;
+            }
+        }
+    </style>
+    
+    <body>
+        <h1>Our Menu</h1>
+        <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+            <div>
+                <p class="chicken">Chicken</p>
+                <p class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ea similique aut non esse, enim adipisci commodi quia sunt omnis iure consequatur neque ullam iste deserunt excepturi voluptate explicabo molestias corrupti, minima provident quaerat amet alias optio. Soluta, itaque magnam quo asperiores quam temporibus voluptatibus.</p>
+            </div>
+        </section>
+        <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+            <div>
+                <p class="beef">Beef</p>
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptas adipisci laboriosam dolorem quidem voluptate modi! Hic quod vel fugit aperiam enim ut? Corrupti aspernatur accusamus iusto. Facilis, minima illo quam voluptate aliquam ab! Unde minima et quas aperiam sunt reprehenderit vitae dolores est rem?</p>
+            </div>
+        </section>
+        <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+            <div>
+                <p class="sushi">Sushi</p>
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas unde sequi itaque quod, natus molestiae accusamus dolor, error enim tempora ipsa ut eum neque, similique commodi porro totam? Numquam consequatur saepe quo, velit a ipsam itaque perferendis quas accusantium nam, soluta rerum voluptates ducimus doloremque.</p>
+            </div>
+    </body>
+    
+    </html>
+</head>
+<body>
+    
+</body>
+</html>
